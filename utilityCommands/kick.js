@@ -23,7 +23,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
             .setTitle('User Kicked ✅')
-            .setDescription(`▶️ ${user.tag} has been kicked from the server by ${message.author.tag}.`)
+            .setDescription(`▶️ ${user.tag} đã bị cút khỏi server bởi ${message.author.tag}.`)
             .setTimestamp();
 
         message.reply({ embeds: [embed] });

@@ -22,7 +22,7 @@ module.exports = {
         // Create an embed object
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setTitle('User Kicked ✅')
+            .setTitle('Người dùng đã bị kick ✅')
             .setDescription(`▶️ ${user.tag} đã bị cút khỏi server bởi ${message.author.tag}.`)
             .setTimestamp();
 

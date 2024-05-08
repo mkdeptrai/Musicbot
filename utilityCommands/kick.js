@@ -6,13 +6,13 @@ module.exports = {
     execute(message, args) {
         // Check if the user has the necessary permissions to use the command
         if (!message.member.permissions.has('KICK_MEMBERS')) {
-            return message.reply('❌ You do not have permission to use this command.');
+            return message.reply('Bạn không có quyền sử dụng lệnh này!!!!');
         }
 
         // Check if a user was mentioned in the command
         const user = message.mentions.users.first();
         if (!user) {
-            return message.reply('❌ You need to mention a user to kick.');
+            return message.reply('Bạn cần chỉ định người để kick');
         }
 
         // Kick the mentioned user

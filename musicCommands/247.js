@@ -81,7 +81,7 @@ module.exports = {
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175524855140057209/check.png?ex=656b8bd5&is=655916d5&hm=75eb1b1f6731b0d6bdec686677d5a86f359f4a5acbbd58751d35ec26d852aaa6&',
           url: 'https://discord.gg/FUEHs7RCqz'
         })
-          .setDescription('**You need to deactivate 24/7 to play songs!**');
+          .setDescription('**Bạn cần sử dụng 24/7 để phát bài hát**');
 
         message.reply({ embeds: [embed] });
       });

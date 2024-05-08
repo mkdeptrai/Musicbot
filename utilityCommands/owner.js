@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Tôi là Zao Music được phát triển bởi tranleminhkhoi và chủ sở hữu của tôi là member của Karma Catholic\n ❤️ [RTX GAMING](${youtubeLink})\n 💙 [Atstreak](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n 🤖 Tôi là Zao Music được phát triển bởi tranleminhkhoi và chủ sở hữu của tôi là member của Karma Catholic\n ❤️ [FL Zen](${youtubeLink})\n 💙 [SGP Zen](${InstagramLink})`)
             .setTimestamp();
 
 
